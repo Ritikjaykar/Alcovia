@@ -127,3 +127,26 @@ Specifically:
 - You can restructure the starter code however you see fit
 - AI tools are fine to use, but your DECISIONS.md and video demo should reflect your own understanding
 - If something in the spec seems wrong or ambiguous, make a call and document it in DECISIONS.md
+
+
+## Running the completed app
+
+Start the API in one terminal:
+
+```bash
+cd server
+npm run seed
+npm run dev
+```
+
+Start Expo in another:
+
+```bash
+npm start
+```
+
+When using Expo Go on a physical phone, `localhost` points to the phone, not this computer. Copy `.env.example` to `.env`, replace the IP with this computer's LAN IPv4 address, and restart Expo. The phone and computer must be on the same Wi-Fi network.
+
+The development build includes a **Finish now (demo)** button on the timer so the completed-session flow can be demonstrated without waiting 15 minutes.
+
+# Alcovia
