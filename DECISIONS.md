@@ -18,17 +18,9 @@ How did you implement cursor-based pagination? What happens when the user scroll
 
 What does the app show when the API is down? When there are 0 sessions? When a request takes 10 seconds?
 
-## Achievements Screen
+## Session Detail
 
-You had no design for this screen. Walk through your decisions: layout choice, locked vs unlocked treatment, progress visualization.
-
-## Focus Timer
-
-This screen had no design spec at all. How did you decide what to build? What did you intentionally leave out?
-
-## n8n Workflow
-
-How does your workflow prevent duplicate notifications for the same student on the same day?
+What did you put on this screen and why? What data felt useful vs noise?
 
 ## What's Weak
 
@@ -37,3 +29,19 @@ What is the weakest part of your implementation? If you had 2 more days, what wo
 ## What Breaks at Scale
 
 If this app had 10,000 concurrent users hitting your API, what breaks first? What would you change?
+
+---
+
+*If you completed any bonus challenges, add a section for each below:*
+
+## (Bonus) Achievements Screen
+
+You had no design for this screen. Walk through your decisions: layout choice, locked vs unlocked treatment, progress visualization.
+
+## (Bonus) Focus Timer
+
+This screen had no design spec at all. How did you decide what to build? What did you intentionally leave out?
+
+## (Bonus) n8n Workflow
+
+How does your workflow prevent duplicate notifications for the same student on the same day?
