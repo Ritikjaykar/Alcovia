@@ -4,8 +4,26 @@
     "slug": "alcovia-student",
     "version": "1.0.0",
     "scheme": "alcovia",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "newArchEnabled": true,
-    "plugins": ["expo-router", "expo-font"]
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-asset"
+    ],
+    "android": {
+      "package": "com.ritik.alcoviastudent"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "997e3fa0-007b-40da-a28c-6f73682ac877"
+      }
+    }
   }
 }
